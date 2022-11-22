@@ -202,6 +202,7 @@ main .search button {
     object-fit: cover;
     background-color: #FFFFFF;
     border-radius: 20px;
+    box-shadow: 1px 1px 1px #d9d9d9;
 }
 
 .accommodation-img{
@@ -339,6 +340,7 @@ main .search button {
     margin-right: 40px;
     background-color: #FFFFFF;
     border-radius: 20px;
+    box-shadow: 1px 1px 1px #d9d9d9;
 } 
 
 
