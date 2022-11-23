@@ -353,8 +353,16 @@ main .search button {
 } 
 
 
+.popular-hotel p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+} 
+
+
+
 .popular-hotel .popular-info{
-    margin-left: 22px;
+    margin-left: 15px;
     width: 51%;
 }
 
@@ -450,12 +458,63 @@ footer .flex-col ul li a{
     cursor: pointer;
 }
 
-/* #footer-hebergements{
-    margin-left: 230px;
-}
+@media (max-width: 1024px) {
+    .flex-desktop{
+        flex-direction: column;
+    }
 
-#footer-assistance {
-    margin-left: 239px;
-} */
+    .popular{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 53px;
+    }
+
+    .populars-hotels{
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .popular-hotel{
+        width: 252px;
+    }
+
+    .popular-img{
+        width: 106px;
+        height: 144px;
+    }
+
+    .popular-hotel {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .popular-hotel h3{
+        font-size: 14px;
+        line-height: 16px;
+    } 
+
+    .popular-info{
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .popular-hotel p{
+        font-size: 13px;
+        line-height: 15px;
+    } 
+
+    .popular-hotel-start{
+        position:absolute; 
+        bottom:0;
+    }
+
+    .popular-hotel-start i{
+        width: 12px;
+        height: 12px;
+        margin-right: 2px;
+    }
+}
 
 
