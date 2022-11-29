@@ -14,7 +14,7 @@
 <!-- attension balise texte -->
 <body>
     <header class="header-wrapper">
-        <img src="./src/assets/img/logo/Booki.png" alt="logo Booki">
+        <a href="./"><img src="./src/assets/img/logo/Booki.png" alt="logo Booki"></a>
         <nav>
             <ul>
                 <li>
@@ -32,37 +32,58 @@
     </header>
     <main>
         <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre-ville ou en pleine nature</p>
+        <p class="p-info">En plein centre-ville ou en pleine nature</p>
         
         <div class="search">
             <div class="marker">
                 <i class="fas fa-map-marker-alt marker"></i>
             </div>
             <input type="search" class="input-search" value="Marseille, France">
-            <i class="fa-solid fa-search"></i>
+            <i class="fa fa-search"></i>
             <button type="submit">Rechercher</button>
         </div>
 
-        <section class="filters">
+        <section class="filters filters-desktop">
             <h3>Filtres</h3>
             <a class="filter" href="#">
                 <i class="fa-solid fa-money-bill-wave"></i>
-                Économique
+                <p>Économique</p>
             </a>
             <a class="filter" href="#">
                 <i class="fa-solid fa-person"></i>
-                Familial
+                <p>Familial</p>
             </a>
             <a class="filter" href="#">
                 <i class="fa-solid fa-heart"></i>
-                Romantique
+                <p>Romantique</p>
             </a>
             <a class="filter" href="#">
                 <i class="fa-solid fa-dog"></i>
-                Animaux autorisés
+                <p>Animaux autorisés</p>
             </a>
         </section>
-
+        <section class="filters filters-mobile">
+            <h3>Filtres</h3>
+            <div class="grid-filters">
+                <a class="filter" href="#">
+                    <i class="fa-solid fa-money-bill-wave "></i>
+                    <p>Économique</p>
+                </a>
+                <a class="filter" href="#">
+                    <i class="fa-solid fa-person"></i>
+                    <p>Familial</p>
+                </a>
+                <a class="filter" href="#">
+                    <i class="fa-solid fa-heart "></i>
+                    <p>Romantique</p>
+                </a>
+                <a class="filter" href="#">
+                    <i class="fa-solid fa-dog "></i>
+                    <p>Animaux autorisés</p>
+                </a>
+            </div>
+        </section>
+        
         <div class="info">
             <i class="fa-solid fa-info"></i>
             <p>Plus de 500 logements sont dispnibles dans cette ville</p>
@@ -71,7 +92,7 @@
         <div class="flex-desktop">
             <section class="accommodations-wrapper" id="hebergements">
                 <h2>Hébergements à Marseille</h2>
-                <div class="grid-accommodation">
+                <div class="grid-accommodations">
                     <a href="#">
                         <article class="accommodation">
                             <div class="accommodation-img">
@@ -133,7 +154,7 @@
                         </article>
                     </a>
                 </div>
-                <div class="grid-accommodation">
+                <div class="grid-accommodations">
                     <a href="#">
                         <article class="accommodation">
                             <div class="accommodation-img">
@@ -194,10 +215,10 @@
                             </div>
                         </article> 
                     </a>
-                </div>
+                </div> 
                 <button>Afficher plus</button>
             </section> 
-            <section class="popular">
+            <section class="populars-wrapper">
                 <div class="title">
                     <h2>Les plus populaires</h2>
                     <i class="fa-solid fa-chart-line"></i>
@@ -213,7 +234,7 @@
                                     <h3>Hôtel Le soleil du matin</h3>
                                     <p>Nuit à partir de 128<span>€</span></p>
                                 </div>
-                                <div class="popular-hotel-start">
+                                <div class="popular-hotel-stars">
                                     <i class="fa-solid fa-star blue-star"></i>
                                     <i class="fa-solid fa-star blue-star"></i>
                                     <i class="fa-solid fa-star blue-star"></i>
@@ -233,7 +254,7 @@
                                     <h3>Chambres d'hôtes Au cœur de l'eau</h3>
                                     <p>Nuit à partir de 71<span>€</span></p>
                                 </div>
-                                <div class="popular-hotel-start">
+                                <div class="popular-hotel-stars">
                                     <i class="fa-solid fa-star blue-star"></i>
                                     <i class="fa-solid fa-star blue-star"></i>
                                     <i class="fa-solid fa-star blue-star"></i>
@@ -253,7 +274,7 @@
                                     <h3>Hôtel Bleu et Blanc</h3>
                                     <p>Nuit à partir de 68<span>€</span></p>
                                 </div>
-                                <div class="popular-hotel-start">
+                                <div class="popular-hotel-stars">
                                     <i class="fa-solid fa-star blue-star"></i>
                                     <i class="fa-solid fa-star blue-star"></i>
                                     <i class="fa-solid fa-star blue-star"></i>
@@ -264,14 +285,13 @@
                         </article>
                     </a>
                 </div>
-            </section>
+            </section> 
         </div>
-
         <section class="activites-wrapper" id="activites">
             <h2>Activités à Marseille</h2>
             <div class="liste-activites">
                 <figure class="carte-activite">
-                    <img src="./src/assets/img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port">
+                    <img src="./src/assets/img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port"/>
                     <h3>Vieux-Port</h3>
                 </figure>
                 <figure class="carte-activite">
@@ -287,7 +307,7 @@
                     <h3>Notre-Dame-de-la-Garde</h3>
                 </figure>
             </div>
-        </section>
+        </section> 
     </main>
     <footer>
         <div class="flex-col">
@@ -312,6 +332,6 @@
                 <li><a href="#">Nous contacter</a></li>
             </ul>
         </div>
-    </footer>
+    </footer> 
 </body>
 </html>
