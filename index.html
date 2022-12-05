@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./src/assets/css/style.css">
     <link rel="icon" href="./src/assets/img/logo/Booki.png">
     <script src="https://kit.fontawesome.com/597ff06523.js" crossorigin="anonymous" defer></script>    
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>Booki</title>
 </head>
 <!-- attension balise texte -->
@@ -47,19 +49,19 @@
             <h3>Filtres</h3>
             <a class="filter" href="#">
                 <i class="fa-solid fa-money-bill-wave"></i>
-                <p>Économique</p>
+                <span>Économique</span>
             </a>
             <a class="filter" href="#">
                 <i class="fa-solid fa-person"></i>
-                <p>Familial</p>
+                <span>Familial</span>
             </a>
             <a class="filter" href="#">
                 <i class="fa-solid fa-heart"></i>
-                <p>Romantique</p>
+                <span>Romantique</span>
             </a>
             <a class="filter" href="#">
                 <i class="fa-solid fa-dog"></i>
-                <p>Animaux autorisés</p>
+                <span>Animaux autorisés</span>
             </a>
         </section>
         <section class="filters filters-mobile">
@@ -290,22 +292,30 @@
         <section class="activites-wrapper" id="activites">
             <h2>Activités à Marseille</h2>
             <div class="liste-activites">
-                <figure class="carte-activite">
-                    <img src="./src/assets/img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port"/>
-                    <h3>Vieux-Port</h3>
-                </figure>
-                <figure class="carte-activite">
-                    <img src="./src/assets/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
-                    <h3>Fort de Pomègues</h3>
-                </figure>
-                <figure class="carte-activite">
-                    <img src="./src/assets/img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
-                    <h3>Parc national des Calanques</h3>
-                </figure>
-                <figure class="carte-activite">
-                    <img src="./src/assets/img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
-                    <h3>Notre-Dame-de-la-Garde</h3>
-                </figure>
+                <a href="#">
+                    <figure class="carte-activite">
+                        <img src="./src/assets/img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port"/>
+                        <h3>Vieux-Port</h3>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="carte-activite">
+                        <img src="./src/assets/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                        <h3>Fort de Pomègues</h3>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="carte-activite">
+                        <img src="./src/assets/img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
+                        <h3>Parc national des Calanques</h3>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="carte-activite">
+                        <img src="./src/assets/img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                        <h3>Notre-Dame-de-la-Garde</h3>
+                    </figure>
+                </a>
             </div>
         </section> 
     </main>
