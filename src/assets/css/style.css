@@ -85,7 +85,6 @@ h1{
 }
 
 .search .marker i {
-    padding: auto;
     margin: 16px 18px 15px 18px;
 }
 
@@ -97,7 +96,6 @@ h1{
     outline: none;
     font-weight: 700;
     font-size: 18px;
-    font-weight: 21px;
     padding-left: 16px;
 }
 
@@ -222,19 +220,20 @@ h1{
     background-color: #FFFFFF;
     display: flex;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px #d9d9d9;
+    box-shadow: 1px 1px 1px 1px #d9d9d9;
 }
 
 .accommodation{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .accommodation-img{
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 4px;
-    height: 124px;
+    height: 100px;
 }
 
 .accommodation img{
@@ -352,7 +351,7 @@ h1{
     height: 152px;
     background-color: #FFFFFF;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px #d9d9d9;
+    box-shadow: 1px 1px 1px 1px #d9d9d9;
 } 
 
 .popular-img{
@@ -433,7 +432,7 @@ h1{
     border: 1px solid #d9d9d9;
     background-color: #FFFFFF;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 1px 1px 1px #d9d9d9;
+    box-shadow: 1px 1px 1px 1px #d9d9d9;
 }
 
 .carte-activite img{
@@ -447,7 +446,7 @@ h1{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    margin : auto 19px auto 19px;
+    margin: 20px 19px;
 }
 
 footer{
@@ -666,8 +665,13 @@ footer .flex-col ul li a{
     .filter i{
         font-size: 1.5rem;
         height: 100%;
-        width: 10%;
+        width: 12%;
     }
+
+    .fa-person.icon-person{
+        margin: 0 7px 0 7px;
+    }
+
     .filter p{
         margin: auto 0;
         font-size: 16px;
@@ -709,7 +713,7 @@ footer .flex-col ul li a{
         height: 152px;
         background-color: #FFFFFF;
         border-radius: 20px;
-        box-shadow: 1px 1px 1px #d9d9d9;
+        box-shadow: 1px 1px 1px 1px #d9d9d9;
     }
 
     .accommodations-wrapper{
@@ -742,7 +746,7 @@ footer .flex-col ul li a{
     }
 
     .activites-wrapper h2{
-        width: 212px;
+        margin-right: 50%;
     }
 
     .liste-activites{
