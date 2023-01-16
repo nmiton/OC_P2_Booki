@@ -126,10 +126,6 @@ h1{
     display: flex;
     flex-direction: row;
     gap: 3%;
-} 
-
-.filters-mobile{
-    display: none;
 }
 
 .filters h3{
@@ -140,6 +136,13 @@ h1{
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+}
+
+.filters .grid-filters{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap : 3%
 }
 
 .filter{
@@ -509,6 +512,7 @@ footer .flex-col ul li a{
         padding: 46px 106px 0px 72px;
         gap: 2%;
     }
+
     .info{
         margin: 53px 0 0 72px;
     }
@@ -635,21 +639,15 @@ footer .flex-col ul li a{
     .filters {
         padding: 46px 21px 0px 20px;
         height: auto;
+        flex-direction: column;
     }
 
-    .filters-desktop{
-        display: none;
-    }
-
-    .filters-mobile{
-        display: block;
-    }
-
-    .filters-mobile h3{
+    .filters h3{
+        width: 100%;
         text-align: left;
-    }
+    } 
 
-    .grid-filters{
+    .filters .grid-filters{
         margin: 15px 0 0 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
