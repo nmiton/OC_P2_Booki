@@ -27,14 +27,12 @@ nav ul{
 }
 
 nav ul li {
-    /* margin : 48px 77px 0 0; */
     width: 50%;
     padding: 48px 0 0 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 nav ul li a{
@@ -45,7 +43,6 @@ nav ul li a{
 nav ul li:hover{
     color : #0065FC;
     border-top: 2px solid #0065FC;
-    /* padding: 46px 20px 0 20px; */
 }
 
 nav ul li:hover a{
@@ -126,10 +123,6 @@ h1{
     display: flex;
     flex-direction: row;
     gap: 3%;
-} 
-
-.filters-mobile{
-    display: none;
 }
 
 .filters h3{
@@ -140,6 +133,13 @@ h1{
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+}
+
+.filters .grid-filters{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap : 3%
 }
 
 .filter{
@@ -509,12 +509,12 @@ footer .flex-col ul li a{
         padding: 46px 106px 0px 72px;
         gap: 2%;
     }
+
     .info{
         margin: 53px 0 0 72px;
     }
 
     .flex-desktop{
-        /* width: 100%; */
         flex-direction: column;
         padding-top: 39px;
         padding-left: 72px;
@@ -582,7 +582,6 @@ footer .flex-col ul li a{
 
     header{
         flex-direction: column;
-        /* justify-content: center; */
     }
 
     header a{
@@ -635,21 +634,15 @@ footer .flex-col ul li a{
     .filters {
         padding: 46px 21px 0px 20px;
         height: auto;
+        flex-direction: column;
     }
 
-    .filters-desktop{
-        display: none;
-    }
-
-    .filters-mobile{
-        display: block;
-    }
-
-    .filters-mobile h3{
+    .filters h3{
+        width: 100%;
         text-align: left;
-    }
+    } 
 
-    .grid-filters{
+    .filters .grid-filters{
         margin: 15px 0 0 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
