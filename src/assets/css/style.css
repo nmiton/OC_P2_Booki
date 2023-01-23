@@ -33,6 +33,7 @@ nav ul li {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    border-top: 2px solid transparent;
 }
 
 nav ul li a{
@@ -63,11 +64,10 @@ h1{
     line-height: 19px;
 }
 
-.search{
+.search form{
     margin : 20px 0 0 55px;
     display: flex;
     align-items: center;
-
 }
 
 .search .marker{
@@ -94,6 +94,12 @@ h1{
     font-weight: 700;
     font-size: 18px;
     padding-left: 16px;
+}
+
+.search input::placeholder{
+    font-weight: 700;
+    font-size: 18px;
+    color : #000000;
 }
 
 .search .fa-search{
@@ -500,7 +506,7 @@ footer .flex-col ul li a{
         margin: 13px 0 0px 72px;
     }
 
-    .search {
+    .search form{
         margin: 20px 0 0 74px;
         display: flex;
         align-items: center;
@@ -616,7 +622,7 @@ footer .flex-col ul li a{
         margin: 13px 40px 0px 20px;
     }
 
-    .search {
+    .search form{
         margin: 36px 22px 0 22px;
     }
 
@@ -753,7 +759,7 @@ footer .flex-col ul li a{
     }
 
     .carte-activite{
-        height: 190px;
+        height: 330px;
         width: auto;
     }
 
